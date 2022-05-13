@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: rgb(255, 255, 255);
+}
+
+.big-container{
+    background: white;
+    width: 83%;
+    padding: 1% 2%; padding-bottom: 3%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    justify-content: start;
+    border-width: 0;border-bottom: 1px;
+    border-color: rgb(231, 231, 231);
+    border-style: solid;
+    
+}.big-product{
+    font-weight: bolder;
+    padding-right: 4%;
+    width: 100%;
+    max-width: 610px;
+}.big-image h1{
+    color:#D26262;
+    font-size: 56px;
+    font-weight: bolder;
+    padding: 0;
+    width: 32%;
+}.big-texts{
+    padding-top: 5%;
+   
+}.big-texts h3{
+    font-weight: 700;
+    font-size: 25px;
+}.big-texts h1{
+    line-height: 1;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0;
+}
+
+.shop-now{
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: bold;
+    padding: 4%;
+    width: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+    
+}.shop-now:hover{
+    background-color: #D26262;
+    border-color: #D26262;
+    color: white;
+}

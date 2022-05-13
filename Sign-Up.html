@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ELPIS | Sign Up</title>
+    <title>ELPIS | Log In</title>
+    <link rel="icon" href="Elpis Logo/elpis-logo-white.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86eff971fa.js" crossorigin="anonymous"></script>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="Css-Styles/NavBar.css">
+    <link rel="stylesheet" href="Css-Styles/Sign-Up.css">
+
+</head>
+<body>
+<!--NavBar-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="Index.html">
+                        <img src="Elpis Logo/full-logo-transparent.png" class="nav-logo">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Collections</a>
+                </li>
+                
+            </ul>
+
+            <div class="nav-icons">
+                <input type="text"  placeholder="Search" class="search-bar">
+                <a class="buttons" href="Log-in.html"> <span class="material-icons mat-nav-icons">account_circle </span></a>
+                <a class="buttons" href="Log-in.html"> <span class="material-icons mat-nav-icons">shopping_cart </span></a>
+                <a class="buttons" href="Log-in.html"> <span class="material-icons mat-nav-icons"> favorite_border </span></a>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!--Sign Up-->
+<div class="sign-up-all">
+    <div class="Sign-up-container">
+    <form>
+        <div class="Sign-up-content">
+            <h1>CREATE AN ACCOUNT</h1>
+            <p>You will receive the confirmation mail to your email address associated with account. 
+                Please make sure to check your incoming email from us.</p>
+            <div class="sign-up-table">
+                <table class="sign-table">
+                    <tr>
+                        <td class="sign-head"> EMAIL ADDRESS</td>
+                        <td> <input type="text" placeholder="Loremipsum@dolorsita.met" class="input-sign" required></td>
+                    </tr>
+                    <tr>
+                        <td class="sign-head"> PASSWORD</td>
+                        <td><input type="password" class="input-sign" required></td>
+                    </tr>
+                    <tr>
+                        <td class="sign-head">BIRTHDATE</td>
+                        <td><input type=date step=7 min=2004-01-01 class="input-sign" required></td>
+                    </tr>
+                    <tr>
+                        <td class="sign-head">GENDER</td>
+                        <td><input type="radio" name="sex" value="male"> Male
+                            <input type="radio" name="sex" value="female"> Female
+                            <input type="radio" name="sex" value="male"> Other
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <h5>TERMS AND AGREEMENTS</h5>
+        <span><input type="checkbox"></span>
+        <span>non fermentum dui elementum. Cras ut sapien sollicitudin, pretium purus suscipit, lobortis mauris. 
+            Donec diam est, vestibulum et hendrerit in, commodo sit amet ex. Ut vitae est augue. Morbi rhoncus orci a 
+            eros tempor, nec vulputate velit finibus. Integer lobortis dui quam, in gravida dolor blandit sit amet. 
+            Quisque non mauris eleifend, semper lacus sit amet, luctus mauris. 
+        </span>
+        <br>
+        <!--Buttons-->
+        <input type="submit" class="sign-button" value="REGISTER">
+    </form>
+    </div>
+</div>
+</body>
+</html>

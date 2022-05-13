@@ -1,0 +1,49 @@
+
+    .rating-container {
+      display: inline-flex;
+    }.rating__input {
+     position: absolute !important;
+     left: -9999px !important;
+    }
+  
+    /*star size and padding*/
+    .rating__label {
+        font-size: 1.4rem;
+        padding: 0 0.1em;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    /*half-star icons*/
+    .rating__label-half {
+      padding-right: 0;
+      margin-right: -0.6em;
+      z-index: 2;
+    }
+    
+    .rating__icon--star {
+      color: #D26262;
+    }
+    
+   /* following stars of checked input into gray  */
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /*colored stars */
+    .rating-container:hover .rating__label .rating__icon--star,
+    .rating-container:hover .rating__label--half .rating__icon--star {
+      color:#D26262;
+    }
+  
+    /* following stars of hovered into gray */
+    .rating__input:hover ~ .rating__label .rating__icon--star,
+    .rating__input:hover ~ .rating__label--half .rating__icon--star {
+      color: #ddd;
+    }
+    
+  
+  
+
+
+  

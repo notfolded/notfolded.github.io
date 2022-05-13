@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: rgb(255, 255, 255);
+}
+.medium-media{
+    width: 100%;
+}.image-container{
+    padding-left: 12.1%;
+    margin-top: 1%;
+}
+
+.medium-container h1{
+    font-weight: bolder;
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
+    color: #D26262;
+    margin: 0;
+}.medium-image{
+    width: 85.2%;
+    margin: 0.5%;
+}
+
+.medium-texts{
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    justify-content: center;
+}.medium-texts h2,.medium-texts a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: clamp(0.5rem, 1vw + 1rem, 2rem);
+    margin-bottom: 0;
+}
+
+.md-text-container{
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 0; border-bottom-width: 4px;
+    border-color: rgb(226, 226, 226);
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+}.active-1{
+    border-style: solid;
+    border-width: 0; border-bottom-width: 4px;
+    border-color: #D26262;
+}.md-text-container:hover{
+    background-color: #fae4e4;;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    border-color: #d26262;
+}.md-text-container h2:hover{
+    color: rgb(32, 32, 32);
+}

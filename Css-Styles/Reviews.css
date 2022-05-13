@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    font-family: Poppins;
+    margin: 0;
+}
+.review-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-flow:wrap;
+
+    padding-bottom: 1%;
+    margin-left: 14%;
+    margin-right: 10%;;
+    border-style: solid;
+    border-width: 0; border-bottom-width: 2px;
+    border-color: #f0f0f0;
+   
+}.review-container{
+    margin-top: 1%;
+}
+.review-container h1{
+    font-weight: bolder;
+    color: #D26262;
+    margin-bottom: 0%;
+}.ratings-1{
+    font-size: clamp(1rem, 2vh + 1rem, 2rem);
+    color: #D26262;
+}.rev-heading{
+    margin-left: 12%;
+    margin-bottom: 0.5%;
+}
+
+
+
+
+.review-card{
+    width:90%;
+    max-width: 680px;
+    background: white;
+    padding: 2%; padding-top: 0.5%; padding-bottom: 0.5%;
+    margin-right: 0;
+}.heading-text{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-flow:wrap;
+}.heading-text h2{
+    font-weight: bolder;
+    font-size: clamp(1rem, 2vh + 1rem, 2rem);
+    margin: 0;
+}.heading-text p{
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0; margin-top: 1%;
+}
+
+.ratings{
+    color: rgb(218, 218, 218);
+}.star-container{
+    margin-bottom: 1%;
+}.review-card hr{
+    margin-bottom: 1%;
+    color: black;
+}
+
+.wr-rev{
+    background: white;
+    width:90%;
+    max-width: 700px;
+    padding: 2%; padding-top: 0.5%; padding-bottom: 0.5%; padding-left: 1%;;
+}.wr-rev h2{
+    font-weight: bolder;
+    font-size: clamp(1rem, 2vh + 1rem, 2rem);
+    color: #D26262;
+    margin: 0;
+}.wr-rev p{
+    margin: 0;
+    font-weight: 500;
+}.wr-rev textarea{
+    width: 90%;
+    height: 150px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 2px;
+    padding: 1%;
+}.wr-rev input[type="file"]{
+    display: none;
+    
+}.upload-button{
+    background-color: #D26262;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    width: 90%;
+    max-width: 264px;
+    padding: 1% 5%; 
+    transition: 0.2s;
+}.upload {
+    vertical-align: -5px;
+}.upload-button:hover{
+    opacity: 75%;
+    transition: 0.2s;
+}
+
+.Submit-button{
+    background-color: white;
+    color: rgb(70, 70, 70);
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 3px;
+    padding: 0% 3%;
+    width: 30%;
+
+
+    font-weight: bolder;
+    cursor: pointer;
+
+    transition: 0.2s;
+}.Submit-button:hover{
+    width: 41%;
+    transition: 0.2s;
+}
